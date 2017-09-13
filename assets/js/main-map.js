@@ -71,10 +71,10 @@ const app = {
        var geocoder = new google.maps.Geocoder(); 
        geocoder.geocode({"latLng": latlon},processGeocoder);
    
-       function processGeocoder(resul, estado){
-           if(estado == google.maps.GeocoderStatus.OK){
-               if(resul[0]){
-                   $("#inputOrigin").val(resul[0].formatted_address);
+       function processGeocoder(result, status){
+           if(status == google.maps.GeocoderStatus.OK){
+               if(result[0]){
+                   $("#inputOrigin").val(result[0].formatted_address);
                }
            }
        }
