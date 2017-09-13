@@ -14,7 +14,7 @@
 	width: 100vw;
 }
 
-#result{
+#result, #cost{
 	position: absolute;
 	bottom: 5px;
 	z-index: 100;
@@ -36,17 +36,24 @@
     margin-top: 10px;
 }
 
-#inputOrigin{
+#inputOrigin, #{
     background-color: white;
 }
 
 #cost{
     padding: 10px;
     background-color: #686868;
-    position: relative;
+    opacity: 0.85;
+    position: absolute;
 }
 
 .mapSmall {
     height: 70vh;
 	width: 100vw;
+}
+
+#priceDiv{
+    position: absolute;
+    left: 200px;
+    top: 10px;
 }
