@@ -26,7 +26,7 @@ function verifyCode () {
         $('#codeV').hide();
     }
 }
-
+/*
 function activeNext () {
     if($("input[type=checkbox]").is(':checked')) {  
         $('#register').attr('disabled', false); 
@@ -34,5 +34,5 @@ function activeNext () {
         $('#register').attr('disabled', true);
     }
     
-}
+}*/
 
