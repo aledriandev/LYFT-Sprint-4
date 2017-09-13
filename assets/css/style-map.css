@@ -14,7 +14,7 @@
 	width: 100vw;
 }
 
-#result{
+#result, #cost{
 	position: absolute;
 	bottom: 5px;
 	z-index: 100;
@@ -44,6 +44,7 @@
     padding: 10px;
     background-color: #686868;
     opacity: 0.85;
+    position: absolute;
 }
 
 .mapSmall {
