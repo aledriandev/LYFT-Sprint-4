@@ -28,6 +28,11 @@ function verifyCode () {
 }
 
 function activeNext () {
-    $('#register').attr('disabled', false);
+    if($("input[type=checkbox]").is(':checked') & $('#first_name').val('') & $('#last_name').val('') & $('#email').val('')) {  
+        $('#register').attr('disabled', false); 
+    } else {  
+        $('#register').attr('disabled', true);
+    }
+    
 }
 
