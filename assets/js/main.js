@@ -8,7 +8,7 @@ $(document).ready(function() {
     
     $('#verify').click(verifyCode);
     $('#codeV').hide();
-    $( "register" ).on( "click", activeNext );
+    $( "input[type=checkbox]" ).on( "click", activeNext );
 });
 
 
@@ -28,7 +28,7 @@ function verifyCode () {
 }
 
 function activeNext () {
-    if($("input[type=checkbox]").is(':checked') & !$('#first_name').val('') & !$('#last_name').val('') & !$('#email').val('')) {  
+    if($("input[type=checkbox]").is(':checked')) {  
         $('#register').attr('disabled', false); 
     } else {  
         $('#register').attr('disabled', true);
