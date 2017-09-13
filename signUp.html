@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lyft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- jQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style-form.css">
+</head>
+<body>
+    
+  <div id="formulario">
+    <div class="container text-center">
+      <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+      <h1>Sing up</h1>
+      <p>Join now for free ride credit</p>
+      <hr>
+      <span>We'll send a text to verify your phone</span>
+      <form class="form-horizontal" action="" id="formPhone">
+          <div class="form-group">
+              <label class="col-md-4 control-label"></label>  
+                <div class="col-md-4">
+                <div class="input-group">
+                  <div class="dropdown input-group-addon">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img src="assets/img/flag1.png" width="25" alt="">
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><img src="assets/img/flag1.png" width="25" alt="">Peru</li>
+                      <li><img src="assets/img/flag2.png" width="25" alt="">Chile</li>
+                      <li><img src="assets/img/flag3.png" width="25" alt="">Mexico</li>
+                    </ul>
+                  </div>
+                  <span class="input-group-addon">+51</span>
+                  <input id="phone" type="tel" required='true' placeholder="999999999" class="form-control" pattern="9[0-9]{8}">
+                </div>
+              </div>
+            </div>
+            <div id="message"></div>
+      </form>
+      <button id="verify">Verificar Numero</button><br>
+      <div id="codeV">
+       <p>Tu codigo de verificacion:</p>
+       <div id="code"></div>
+     </div>
+      <button id="btn-phone" class="next" onClick="location.href='register.html'" disabled>Next</button>
+  </div>
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/4154d90246.js"></script>
+  <!-- Bootstrap  JS -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

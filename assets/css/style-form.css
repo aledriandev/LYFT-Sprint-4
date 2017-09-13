@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body{
+}
+
+#promo{
+	height: 100%;
+	background-image: url('../img/gif1.gif');
+	background-position: center;
+	background-size: cover;
+}
+
+#promo img{
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	top: 100px;
+	left: 20px;
+}
+
+#cover{
+	background-image: url('../img/img1.jpg');
+	background-position: center;
+	background-size: cover;
+	display: none;
+}
+
+#intro{
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	bottom: 50px;
+}
+.btn-intro{
+	width: 120px;
+	height: 60px;
+	background-color: #FF00C8;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 150%;
+}
+
+#formPhone {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+}
+
+#formPhone input {
+	font-size: 120%;
+	height: 60px;
+}
+
+.next{
+	width: 100%;
+	height: 100px;
+	background-color: #FF00C8;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin: 10px 0;
+	font-size: 180%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}

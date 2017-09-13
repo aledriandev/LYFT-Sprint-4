@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lyft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style-form.css">
+</head>
+
+<body>
+
+  <div id="formUser">
+    <div class="container text-center">
+      <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+      <h1>Sing up</h1>
+      <p>Join now for free ride credit</p>
+      <hr>
+      <form class="form-horizontal" action="">
+
+        <div class="form-group">
+          <label class="col-md-4 control-label"></label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="first_name" required placeholder="First Name" class="form-control" type="text" pattern="[A-Za-z]">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label"></label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="last_name" required placeholder="Last Name" class="form-control" type="text" pattern="[A-Za-z]">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label"></label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+              <input name="email" required placeholder="E-Mail Address" class="form-control" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+            </div>
+          </div>
+        </div>
+
+        <input type="checkbox" id="terms">I agree to Lyft's <a href="#">Terms of Service</a><br>
+
+        <button class="next" type="submit" disabled id="register" onClick="location.href='map.html'">Next</button>
+      </form>
+      
+    </div>
+  </div>
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/4154d90246.js"></script>
+  <!-- Bootstrap  JS -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

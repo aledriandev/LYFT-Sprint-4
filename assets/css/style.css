@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body{
+	height: 100%;
+}
+
+#promo{
+	height: 100%;
+	background-image: url('../img/gif1.gif');
+	background-position: center;
+	background-size: cover;
+}
+
+#promo img{
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	top: 100px;
+	left: 20px;
+}
+
+#cover{
+	background-image: url('../img/img1.jpg');
+	background-position: center;
+	background-size: cover;
+	display: none;
+}
+
+#intro{
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	bottom: 50px;
+}
+.btn-intro{
+	width: 120px;
+	height: 60px;
+	background-color: #FF00C8;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 150%;
+}
